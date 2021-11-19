@@ -25,7 +25,7 @@ function BeerDetails() {
     return (
         <div>
             <Header/>
-            <img />
+            <img src={beerData.image_url}/>
             <h1>{beerData.name}</h1>
             <p>{beerData.tagline}</p>
             <p>{beerData.first_brewed}</p>
